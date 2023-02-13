@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #d4c4c4;
+    display: block;
+
+}
+
+.machine {
+    /* background-color: #101025; */
+    margin: 100px 400px;
+    box-shadow: 0 2px 2px 2px #2f2f6d;
+}
+
+.box {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    background-color: lightgrey;
+    ;
+
+}
+
+.box i {
+    padding: 10px;
+    background-color: grey;
+    border-style: solid #000;
+
+}
+
+.display {
+    color: #fff;
+    background-color: #333337;
+    text-align: right;
+    padding: 30px;
+}
+
+.display h4 {
+    padding: 10px;
+}
+
+.display h1 {
+    padding: 10px;
+}
+
+
+
+.numbers ul {
+    display: grid;
+    grid-template-columns: repeat(4, 5fr);
+    list-style: none;
+    padding: 20px 20px;
+    background-color: #af8e61;
+
+}
+
+.numbers ul li {
+    padding: 20px 20px;
+    background-color: #101025;
+    color: #fff;
+    border-radius: 500cm 500cm;
+    font-style: calc(50px);
+    text-align: center;
+    font-weight: 200;
+    cursor: pointer;
+
+}
+
+.numbers ul li span {
+    color: red;
+}
+
+
+.numbers ul li .eql {
+    color: #fff;
+    border-radius: 500cm 500cm;
+    background: orangered;
+    padding: 15px 60px;
+    font-weight: 500px;
+
+}
+
+.numbers ul :hover {
+    background-color: #57a3a3;
+}
+
+.eql :hover {
+    background-color: red;
+}
