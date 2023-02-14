@@ -13,7 +13,7 @@ body {
 
 .machine {
     background-color: #101025;
-    margin: 100px 400px;
+    margin: 100px 200px;
     box-shadow: 0 2px 2px 2px #2f2f6d;
 }
 
@@ -37,7 +37,7 @@ body {
     color: #fff;
     background-color: #333337;
     text-align: right;
-    /* padding: 30px; */
+    padding: 30px;
 }
 
 .display h4 {
@@ -68,6 +68,8 @@ body {
     text-align: center;
     font-weight: 200;
     cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -80,7 +82,7 @@ body {
     color: #fff;
     border-radius: 500cm 500cm;
     background: orangered;
-    padding: 15px 60px;
+    padding: 15px 80px;
     font-weight: 500px;
 
 }
@@ -98,4 +100,7 @@ body {
         grid-template-columns: repeat(3, 6fr);
     }
 
+    .machine {
+        justify-content: center;
+    }
 }
